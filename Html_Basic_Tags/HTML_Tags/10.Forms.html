@@ -10,6 +10,7 @@
     It essentially serves as a 'CONTAINER' for all of these elements to sit inside.
     When you place a button inside a form, we can use that button to submit all the input data in the form or reset data in the form.
 -->
+<h1>Working with Forms!</h1>
 
 
 <!--
@@ -29,14 +30,30 @@
 
     Let's create another html file called 10.page1.html for this example.
 -->
+<h2>Here is our input fields/buttons inside a form</h2>
+<form action="10.page1.html">
+    <label for="username">Enter a Username: </label>
+    <input type="text" id="username" name="my_username" placeholder="Enter Username" required>
 
+    <label for="password">Enter a Password</label>
+    <input type="password" id="password" name="my_password"placeholder="Enter a Password" required minlength="4"maxlength="8">
 
+    <button type="submit">Submit</button>
+    <button type="reset">Clear Form</button>
+</form>
 <!--
     We were actually sending our data in the example above, but we don't know how to process it.
     Note that the username and password are in the URL above when we hit submit!
     We can send our data to websites that do know how to process it!
     We just have to make sure that we follow their naming conventions for the data that is passed.
 -->
-
+<h2>Hijacking search Engines</h2>
+<h3>Search Google</h3>
+<form action="https://google.com/search">
+    <label for="search_item">Search Google:</label>
+    <input type="text" id="search_item" name="q" required>
+    <button type="submit">Search Google</button>
+    <button type="reset">Reset</button>
+</form>
 </body>
 </html>
