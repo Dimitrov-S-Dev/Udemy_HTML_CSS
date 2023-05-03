@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anchor Tag</title>
+</head>
+<body>
+<!--
+    An anchor tag <a></a> is simply a link to another webpage.
+    You must provide a href attribute in the opening tag of the anchor tag.
+    href or hypertext reference is a link to where you will be going to when the anchor tag is clicked.
+    This can be an external site, another file in your directory, or a location on your page!
+    We can specify locations on our current pages using the id attribute.
+-->
+<h1 id="top">Learning about Anchor Tags</h1>
+<p>
+    We can link to new webpages.
+    We can link to pages in our directory.
+    We can link to sections in our page.
+
+</p>
+<hr>
+<!--
+    When linking to an external site you must provide the url as the href attribute.
+    You also must provide text for the link inside the anchor tags.
+    We can also use the target attribute to force our browser to open the link in a new tab.
+-->
+<h2>Linking to external website</h2>
+<a href="https://google.com">Linking to Google</a>
+<p>
+    Here is another link to google:
+    <a href="https://google.com" target="_blank">Googoooloo</a>
+</p>
+<hr>
+<!-- We can put our links in a list...Really, anything can be a link. -->
+<h2>My favorite websites</h2>
+<ul>
+    <li><a href="https://google.com" target="_blank">Google</a></li>
+    <li><a href="https://google.com" target="_blank">Gooogoooolooo</a></li>
+    <li><a href="https://google.com"target="_blank">Gooooogoooolooo</a></li>
+    <li><a href="https://google.com"target="_blank">Goooooogooooooooloooooo</a></li>
+</ul>
+<hr>
+
+<!--
+    We can use links to go to different webpages we've created by specifying the pathname.
+    I'm using relative pathname since they are all in the same directory.
+    Let's go and create two new files called 7.page1.html and 7.page2.html
+    We will link to them here.
+-->
+<h2>Links to other pages</h2>
+<p>Go to P1<a href="7.page1.html">P1</a></p>
+<p>Go to P2<a href="7.page2.html">P2</a></p>
+<hr>
+<!--
+    We can use links to move to different sections of our page by using the id attribute.
+    Recall, we gave our opening h1 an id of top.
+    If we want to link to that id, we need to reference the elements id with a # in our href.
+-->
+<h2>Here are some text</h2>
+<p>Lorem ipsum dolor sit amet.</p><br>
+<p>Lorem ipsum dolor sit amet, consectetur.</p><br>
+<p>Lorem ipsum dolor sit amet, consectetur.</p><br>
+<p>Lorem ipsum dolor sit amet, consectetur.</p><br>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p><br>
+<hr>
+<a href="#top">Go back to the top of the page</a>
+</body>
+</html>
