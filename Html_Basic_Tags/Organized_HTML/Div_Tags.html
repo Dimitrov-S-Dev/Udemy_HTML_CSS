@@ -11,16 +11,40 @@
     We can give a div that is holding element an id or class attribute.
     Later we can target the entire div to style specific sections of content on our website.
 -->
-
+  <h1>Divs - The Block Level Element Container</h1>
 
         <!-- Here is some ungrouped content. -->
 
-
+  <h2 style="background: lightgreen">Ungrouped Content Here</h2>
+  <p style="background: lightgreen">
+    Some html elements that are not in a div.
+  </p>
+  <pre style="background: lightgreen">
+     /\_/\
+    ( o.o )
+     > ^ <
+  </pre>
+  <p style="background: lightgreen">
+    That is a Cat
+  </p>
         <!--
             Here is content grouped together inside a div!
             If this div is unique on our page we can give it an id.
         -->
-
+  <div id="cat_section" style="background: lightcoral">
+    <h2>Grouped Content Here inside Div</h2>
+  <p>
+    Some html elements that are not in a div.
+  </p>
+  <pre>
+     /\_/\
+    ( o.o )
+     > ^ <
+  </pre>
+  <p>
+    That is a Cat
+  </p>
+  </div>
 
         <!--
             Divs are block level elements.
@@ -33,11 +57,23 @@
 
         <!-- Recall images are inline(ish) elements, so they will be placed on the same line by default. -->
 
+  <img src="3.Cat.jpg" alt="Cat" width="25%">
+  <img src="3.Cat.jpg" alt="Cat" width="25%">
+  <img src="3.Cat.jpg" alt="Cat" width="25%">
 
         <!--
             We can wrap the images in a div to put them on new lines!
             Since these divs are NOT unique we can't give them an id, but should give a class.
         -->
+  <div class="cat_wrapper">
+    <img src="3.Cat.jpg" alt="Cat" width="25%">
+  </div>
+  <div>
+    <img src="3.Cat.jpg" alt="Cat" width="25%">
+  </div>
+  <div>
+    <img src="3.Cat.jpg" alt="Cat" width="25%">
+  </div>
 
 </body>
 </html>
