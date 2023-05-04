@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms Exercise</title>
+</head>
+<body>
+<h1>Your Course Landing Page</h1>
+<form action="/clp">
+    <div>
+    <label for="title"></label>
+    <input type="text" id="title" name="title" required>
+    </div>
+
+    <div>
+    <label for="desc"></label>
+    <textarea name="desc" id="desc" cols="5" rows="5"></textarea>
+    </div>
+
+    <div>
+    <label for="level">Skill Level</label>
+    <select id="level" name="level">
+        <option value="beginner">Beginner Level</option>
+        <option value="intermediate">Intermediate Level</option>
+        <option value="advance">Advance Level</option>
+        <option value="all">All Levels</option>
+    </select>
+    </div>
+
+    <div>
+    <label for="publish">Ready to publish the course</label>
+    <input type="checkbox" id="publish" name="publish">
+    <button type="submit">Submit</button>
+    </div>
+</form>
+
+</body>
+</html>
