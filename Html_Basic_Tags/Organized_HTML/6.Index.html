@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Index</title>
+    <title>Sign In</title>
 </head>
 <body>
 <!--
@@ -14,7 +14,7 @@
     Containers should be given a proper class or id attribute.
 
     Although it is not best practice to style inside html,
-    you will be asked to give all your containers a unique background color using the style attribute
+    you will be asked to give all your containers a unique background color using the style attribute,
     so we can better see the organization of the containers.
 -->
 
@@ -34,5 +34,23 @@
     You can name your other divs as you see fit.
     Remember, each div should be styled with a different background color.
 -->
+    <div id="header" style="background: lightcoral">
+        <h1>Welcome to the Pokemon Trader</h1>
+        <hr>
+    </div>
+
+    <div id="main" style="background: lightgreen">
+        <h2>Please Log In</h2>
+        <form action="">
+            <label for="username">Enter a Username:</label>
+            <input type="text" id="username" name="my_username" placeholder="Enter a Username" required>
+
+            <label for="password">Enter a Password:</label>
+            <input type="password" id="password" name="my_password" placeholder="Enter a Password" required>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
 </body>
 </html>
