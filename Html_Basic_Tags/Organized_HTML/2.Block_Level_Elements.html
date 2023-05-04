@@ -1,3 +1,9 @@
+<!--
+    A block-level element ALWAYS starts on a new line.
+    It takes up the full horizontal width of its container (what it is inside).
+    It takes up only as much vertical height as needed to fit the contents of the element.
+    A nice way to show this is by adding a background color via the style attribute.
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,27 +11,29 @@
     <title>Block Level Elements</title>
 </head>
 <body>
+  <h1>Learning About Block Level Elements</h1>
 <!--
-    A block-level element ALWAYS starts on a new line.
-    It takes up the full horizontal width of its container (what it is inside).
-    It takes up only as much vertical height as needed to fit the contents of the element.
-    A nice way to show this is by adding a background color via the style attribute.
--->
-
-
-        <!--
             Headings are block level elements.
             Each time we make a new heading they are on a new line.
             They take up the full width of their parent container (the screen).
             The height will only be as tall as needed to fit the content.
         -->
 
-
+  <h2>Headings</h2>
+  <h3 style="background: lightblue">A heading is a block level element.</h3>
+  <h3 style="background: lightblue">A heading is a block level element.</h3>
+  <h3 style="background: lightblue; font-size: 100px;">A heading is a block level element.</h3>
         <!-- Paragraphs are block level elements. -->
 
-
+  <h2>Paragraphs</h2>
+  <p style="background: lawngreen">Lorem ipsum dolor sit amet.</p>
         <!-- Lists and list items are block level elements. -->
-
+  <h2>Lists</h2>
+  <ul style="background: coral">
+    <li>Block Elements</li>
+    <li>Block Elements</li>
+    <li>Block Elements</li>
+  </ul>
 
         <!--
             Forms are block level elements.
@@ -33,6 +41,13 @@
             Note how the label, input field, and button are NOT on new lines
             And only take up as much space as required!
         -->
+  <h2>Forms</h2>
+  <form action="" style="background: aquamarine">
+    <label style="background: yellow" for="username">Enter Username</label>
+    <input style="background: blue" type="text" id="username" name="username" placeholder="Enter your name">
+    <button style="background: red" type="submit">Submit</button>
+    <button style="background: green" type="reset">Reset</button>
+  </form>
 
 </body>
 </html>
