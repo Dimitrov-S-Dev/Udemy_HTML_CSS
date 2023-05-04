@@ -12,14 +12,30 @@
     Imagine we wanted to format a section of text in a paragraph with a given background color...
 -->
 
+  <h1>Spans - An Inline Element Container</h1>
 
         <!-- We could try to style the whole paragraph...wrong. -->
-
+  <p style="background: lightgreen">
+    Maybe I want to style THIS SECTION A SPECIFIC WAY!
+    If I style the whole paragraph, the WHOLE paragraph will be stiled the same.
+    Which is not the desired result!
+  </p>
 
         <!-- We could try to create a div around the section of text...wrong. -->
 
-
+ <p>
+    Maybe I want to style
+    <div class="text_wrapper_div" style="background: lightgreen">THIS SECTION A SPECIFIC WAY!</div>
+    If I use a div to target that section it places the section on a new line
+    and takes up the whole of the screen since div is a block level element.
+    This is not what we want!
+  </p>
         <!-- We could use a span (inline container) to wrap the text...correct! -->
+<p>
+    Maybe I want to style
+    <span class="text_wrapper_span" style="background: lightgreen">THIS SECTION A SPECIFIC WAY!</span>
+    To do this, I just have to wrap the text in a span.
+  </p>
 
 </body>
 </html>
