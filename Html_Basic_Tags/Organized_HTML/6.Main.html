@@ -1,36 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<!--
-    The main page is your home page for your site.
-    It should have the following:
-        A 'header' or title section/title banner at the top of your page
-        A minimum of 2 paragraphs to describe your 'collection' using various styling tags
-        A minimum of 3 images
-        A minimum of 3 links to 3 different internal web pages as a 'navigation bar'
-        A minimum of 3 links to 3 different external web pages
-        A minimum of 1 link to 1 different section of THIS page
-        Appropriate heading, paragraph, list, and table tags
-        A search engine 'hijack' to search more about your 'collection' item with a search and clear button
-        A 'footer' or bottom section containing common info across all pages
--->
+  <head>
+      <meta charset="UTF-8">
+      <title>The Pokemon Trader</title>
+  </head>
+  <body>
+  <!--
+      The main page is your home page for your site.
+      It should have the following:
+          A 'header' or title section/title banner at the top of your page
+          A minimum of 2 paragraphs to describe your 'collection' using various styling tags
+          A minimum of 3 images
+          A minimum of 3 links to 3 different internal web pages as a 'navigation bar'
+          A minimum of 3 links to 3 different external web pages
+          A minimum of 1 link to 1 different section of THIS page
+          Appropriate heading, paragraph, list, and table tags
+          A search engine 'hijack' to search more about your 'collection' item with a search and clear button
+          A 'footer' or bottom section containing common info across all pages
+  -->
 
-<!--
-    To organize your page, you MUST use proper html structure.
-    You MUST also have divs with the following names (id vs class)...
-        header
-        main
-        article
-        nav
-        footer
-    You decide what content should go in them.
-    You can name your other divs as you see fit.
-    You must also use a minimum of 2 spans to style the text background within a paragraph.
-    Remember, each div should be styled with a different background color.
--->
-</body>
-</html>
+  <!--
+      To organize your page, you MUST use proper html structure.
+      You MUST also have divs with the following names (id vs class)...
+          header
+          main
+          article
+          nav
+          footer
+      You decide what content should go in them.
+      You can name your other divs as you see fit.
+      You must also use a minimum of 2 spans to style the text background within a paragraph.
+      Remember, each div should be styled with a different background color.
+  -->
+
+    <div id="header" style="background: lightcoral">
+      <h1 id="top">Welcome to Pokemon Trader</h1>
+      <img src="6.poke.png" alt="pokeball">
+      <img src="6.poke.png" alt="pokeball">
+      <img src="6.poke.png" alt="pokeball">
+    </div>
+
+    <div id="main" style="background: lightgoldenrodyellow">
+      <div class="article" style="background: lightcyan">
+        <h2>A Brief History for Pokemon</h2>
+            <p>
+                Lorem ipsum dolor sit amet, elit.
+                <b>Lorem</b> ipsum dolor sit amet, <u>consectetur</u>.
+                Lorem ipsum dolor sit amet, <u>consectetur</u> </i>adipisicing.
+                Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor sit amet, <u>consectetur</u> <i>adipisicing</i>.
+                Lorem ipsum dolor sit.
+                Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor sit amet, <u>consectetur</u> <i>adipisicing</i>.
+                Lorem ipsum dolor.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, elit.
+                <b>Lorem</b> ipsum dolor sit amet, <u>consectetur</u>.
+                Lorem ipsum dolor sit amet, <u>consectetur</u> </i>adipisicing.
+                Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor sit amet, <u>consectetur</u> <i>adipisicing</i>.
+                Lorem ipsum dolor sit.
+                Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor sit amet, <u>consectetur</u> <i>adipisicing</i>.
+                Lorem ipsum dolor.
+            </p>
+            <hr>
+      </div>
+      <div id="nav" style="background: lightpink">
+          <h2>Learn more about Original Three</h2>
+          <a href="6.Balb.html"><img src="6.bulb1.png" alt="bulbasuar pokemon" style="width: 400px"></a>
+          <a href="6.Char.html"><img src="6.char1.png" alt="charmender pokemon" style="width: 400px"></a>
+          <a href="6.Squirt.html"><img src="6.squirt1.png" alt="squirtle pokemon" style="width: 400px"></a>
+          <hr>
+      </div>
+
+      <div class="external_links" style="background:lightskyblue">
+          <h2>Learn More about Pokemon</h2>
+          <p>
+              Learn more about Pokemon from the <a href="https://www.pokemon.com/us/pokedex" target="_blank">Pokedex!</a>
+          </p>
+          <p>
+              Learn more about <a href="https://google.com" target="_blank">at Google </a>
+          </p>
+          <hr>
+      </div>
+
+      <div class="rankings" style="background: aquamarine">
+          <h2>My Top Pokemon</h2>
+          <ul>
+              <li>Sancho</li>
+              <li>Pansa</li>
+              <li>Carabas</li>
+              <li>Sandokan</li>
+          </ul>
+      </div>
+
+      <div class="search" style="background: palevioletred">
+          <h2>Search about Any Pokemon!</h2>
+            <form action="https://google.com">
+              <label for="search_item">Pokemon Name:</label>
+              <input type="text" id="search_item" name="q" required>
+
+              <button type="submit">Search for Pokemon</button>
+              <button type="reset">Clear</button>
+          </form>
+          <hr>
+      </div>
+    </div>
+
+    <div id="footer" style="background: lightgoldenrodyellow">
+      <img src="6.poke.png" alt="pokeball to catch pokemon">
+      <img src="6.poke.png" alt="pokeball to catch pokemon">
+      <img src="6.poke.png" alt="pokeball to catch pokemon">
+      <a href="#top">Home</a>
+      <a href="6.Balb.html">Bulbasaur</a>
+      <a href="6.Char.html">Charmander</a>
+      <a href="6.Squirt.html">Squirtel</a>
+      <img src="6.poke.png" alt="pokeball to catch pokemon">
+      <img src="6.poke.png" alt="pokeball to catch pokemon">
+      <img src="6.poke.png" alt="pokeball to catch pokemon">
+
+    </div>
+  </body>
+  </html>
