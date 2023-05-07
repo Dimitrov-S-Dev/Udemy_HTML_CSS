@@ -1,0 +1,83 @@
+<!--
+    In this project you are to design a simple 3-page site that has the
+    following pages for a 'made up company':
+        A Home page that describes what the company does
+        An About page that details information about the company and who runs it
+        A Contact page that simulates getting into contact with someone from the company
+        You may add other pages as needed or as you see fit
+    
+    Each page is required to have proper HTML structure and use semantic HTML.
+    Each page is required to have the following semantic HTML elements
+        A common header across all three pages
+        A common navigation bar across all three pages
+        A main section with appropriate use of articles, sections, divs, and spans
+        A common footer across all three pages
+    
+    You will have 1 styling css page to style elements in a consistent manner across all 3 pages.
+    All styling should be done in the css with no styling done in the html.
+    You will be required to use various selector methods.
+    You will style the following:
+        Background color of element
+        Text color of elements
+        Size of elements
+-->
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Mr. Pet Emporium</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img class="large_img" src="pet_store.jpg" alt="">
+            <h1>Welcome to Mr. Pet Emporium</h1>
+            <h4>Where you can get all your pets needs at one <u>low</u> price! </h4>
+            <hr>
+        </header>
+
+        <main>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <section id="page_content">
+                <h2>All Your Pets Needs In One Place</h2>
+                <img class="small_img" src="dog.png" alt="dog">
+                <img class="small_img" src="bird.png" alt="bird">
+                <img class="small_img" src="cat.png" alt="cat">
+                <img class="small_img" src="fish.png" alt="fish">
+            </section>
+
+            <article class="main_info">
+                <h2>We Love Our Pets</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            </article>
+
+            <article class="secondary_info">
+                <h3>Pets Available</h3>
+                <ul>
+                    <li>Gerry - Dog</li>
+                    <li>Terry - Dog</li>
+                    <li>Bruce - Cat</li>
+                    <li>Lee - Cat</li>
+                    <li>Sancho - Bird</li>
+                    <li>Pansa - Fish</li>
+                </ul>
+            </article>
+        </main>
+
+        <footer>
+            <p>Taking care of animals and working overtime1</p>
+        </footer>
+    </body>
+</html>
