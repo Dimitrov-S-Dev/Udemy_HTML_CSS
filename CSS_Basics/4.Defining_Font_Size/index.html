@@ -1,0 +1,77 @@
+<!--
+    Many CSS properties require some measurement of length of size such as font-size.
+    A length is a numerical value followed by some unit. Lengths can be absolute or relative.
+    Absolute font-size is fixed no matter the screen size; such as the pixel px.
+    Relative font-size is relative to another length and can vary; such as em, and rem. 
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Units of Size - Font Size</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Learning About Font Size</h1>
+            <hr>
+        </header>
+
+        <main>
+            <h2>Font Size: Pixels vs em/rem </h2>
+             <!--
+                Font sizes expressed in pixels are absolute.
+                They will not change as the parent element or container changes in size.
+            -->
+
+            <div id="pixel_div"></div>
+                <h3 id="pixel_h">Font Size in Pixels - Absolute</h3>
+                <p id="pixel_p">
+                    This text should NOT scale with the text size of the parent element
+                    This text should NOT scale with the text size of the parent element
+                    This text should NOT scale with the text size of the parent element
+                    This text should NOT scale with the text size of the parent element
+                    This text should NOT scale with the text size of the parent element
+                </p>
+            <!--
+                em is sizing that is relative to the font-size of the current parent element.
+                2em means 2 times the size of the current parent elements font,
+                .25 means a quarter size of the current parent elements font.
+                So as the parent element font changes size, the size of your elements scales with it.
+            -->
+            <div id="em_div"></div>
+                <h3 id="em_h">Font Size in am - Relative to the Parent Element</h3>
+                <p id="em_p">
+                    This text should simply scale with the text size of the parent element!
+                    This text should simply scale with the text size of the parent element!
+                    This text should simply scale with the text size of the parent element!
+                    This text should simply scale with the text size of the parent element!
+                    This text should simply scale with the text size of the parent element!
+                    This text should simply scale with the text size of the parent element!
+                </p>
+
+            <!--
+                rem is similar to em except it doesn't care about the parent element.
+                Rather, it cares about the root element of the page.
+                In our case this is the html element of the page.
+                So rather than scaling with the div here, it will scale with the html element.
+            -->
+              <div id="rem_div"></div>
+                <h3 id="rem_h">Font Size in rem - Relative to the HTML Page</h3>
+                <p id="rem_p">
+                    This text  should only scale with text size of the root element!
+                    Our HTML Page!This text  should only scale with text size of the root element!
+                    Our HTML Page!This text  should only scale with text size of the root element!
+                    Our HTML Page!This text  should only scale with text size of the root element!
+                    Our HTML Page!This text  should only scale with text size of the root element!
+                    Our HTML Page!This text  should only scale with text size of the root element!
+                    Our HTML Page!
+                </p>
+        </main>
+
+        <footer>
+            <p>In style</p>
+        </footer>
+    </body>
+</html>
+    
