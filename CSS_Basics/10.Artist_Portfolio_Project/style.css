@@ -59,4 +59,27 @@ a.active{
     object-fit: cover;
 }
 
+.about{
+    width: 40%;
+    min-width: 600px;
+    margin: 100px 0 20px 200px;
+}
+.about h3{
+    font-size: 40px;
+    font-weight: 300;
 
+}
+
+.contact{
+    margin: 100px 0 0 200px;
+}
+
+.cta{
+    border-bottom: 1px solid black;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.card img:hover{
+    opacity: 0.7;
+}
