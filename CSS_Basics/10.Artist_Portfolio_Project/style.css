@@ -4,7 +4,8 @@ body {
 
 h1{
     display: inline-block;
-
+    font-weight: 300;
+    margin: 0 32px 0 0;
 }
 
 .links{
@@ -19,4 +20,17 @@ h1{
     color: black;
     font-size: 20px;
     margin: 0 8px;
+}
+
+.links ul{
+    padding: 0;
+}
+
+.nav_bar{
+    margin: 32px;
+}
+
+a.active{
+    border-bottom: 1px solid black;
+
 }
