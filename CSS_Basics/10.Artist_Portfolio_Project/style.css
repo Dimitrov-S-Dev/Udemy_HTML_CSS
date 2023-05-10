@@ -26,7 +26,7 @@ h1{
     padding: 0;
 }
 
-.nav_bar{
+.navbar{
     margin: 32px;
 }
 
@@ -37,5 +37,6 @@ a.active{
 
 img{
     width: 40%;
-    height: 500px;
+    height: 400px;
 }
+
