@@ -5,7 +5,7 @@ body {
 h1{
     display: inline-block;
     font-weight: 300;
-    margin: 0 32px 0 0;
+    margin: 0 1090px 0 0;
 }
 
 .links{
@@ -19,7 +19,7 @@ h1{
     text-decoration: none;
     color: black;
     font-size: 20px;
-    margin: 0 8px;
+    margin: 0 12px;
 }
 
 .links ul{
@@ -35,6 +35,9 @@ a.active{
 
 }
 
+.gallery{
+    padding: 16px;
+}
 .card{
     width: 33%;
     display: inline-block;
@@ -46,12 +49,14 @@ a.active{
     display: inline-block;
     color: black;
     font-size: 30px;
-    font-weight: 300;
-    margin: 0 8px;
+    font-weight: 200;
+    margin: 8px 8px;
     text-decoration: none;
 }
 .card img{
     height: 400px;
     width: 100%;
+    object-fit: cover;
 }
+
 
