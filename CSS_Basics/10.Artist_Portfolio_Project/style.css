@@ -35,8 +35,23 @@ a.active{
 
 }
 
-img{
-    width: 40%;
+.card{
+    width: 33%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+.card a{
+    display: inline-block;
+    color: black;
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0 8px;
+    text-decoration: none;
+}
+.card img{
     height: 400px;
+    width: 100%;
 }
 
