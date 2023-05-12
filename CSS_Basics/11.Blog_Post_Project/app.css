@@ -55,6 +55,10 @@ h2{
     padding: 32px;
 }
 
+.content h3{
+    text-transform: capitalize;
+}
+
 .info{
     text-align: center;
     text-transform: uppercase;
