@@ -44,9 +44,14 @@ h5{
     letter-spacing: 0.25px;
 }
 
-h2{
+h6{
     font-size: 20px;
     letter-spacing: 0.25px;
+}
+
+code{
+    color: #e95400;
+    font-weight: bold;
 }
 
 .content{
