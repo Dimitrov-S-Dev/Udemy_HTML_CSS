@@ -54,6 +54,10 @@ code{
     font-weight: bold;
 }
 
+.hero{
+    background: #863ea8;
+    height: 100vh;
+}
 .content{
     max-width: 900px;
     margin: 0 auto;
