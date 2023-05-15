@@ -54,14 +54,16 @@ Underlined links are ugly :)
     text-align: center;
 }
 
-.form-wrap .form-group {
+/*.form-wrap*/
+.form-group {
 /*
   Each label, input is wrapped in .form-group
 */
     margin-top: 15px;
 }
 
-.form-wrap .form-group label {
+/*.form-wrap */
+.form-group label {
 /*
   Label should be turned into a block element
 */
@@ -69,7 +71,8 @@ Underlined links are ugly :)
     color: #666;
 }
 
-.form-wrap .form-group input {
+/*.form-wrap */
+.form-group input {
 /*
   Inputs should reach across the .form-wrap 100% and have some padding
 */
@@ -91,28 +94,36 @@ Underlined links are ugly :)
     padding: 10px;
     color: #fff;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .form-wrap button:hover {
 /*
   Hover background color for button is #37a08e
 */
+    background: #37a08e;
 }
 
-.form-wrap .bottom-text {
+/*.form-wrap */
+.bottom-text {
 /*
   Bottom text is smaller
 */
+    font-size: 12px;
+    margin-top: 20px;
 }
 
 footer {
 /*
 Should be centered
 */
+    text-align: center;
+    margin-top: 10px;
 }
 
 footer a {
 /*
   Footer link color is #49c1a2
 */
+    color: #49c1a2;
 }
