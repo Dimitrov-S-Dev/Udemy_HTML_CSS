@@ -1,4 +1,40 @@
 /* Changing the styling of lists */
+#list_1{
+    list-style: circle;
+    font-size: 1.25rem;
+    color: darkblue;
+    background: lightgray;
+}
+#list_2{
+    list-style-image: url("check.png");
+    font-size: 1.5rem;
+    color: lightblue;
+    background: darkblue;
+}
 
-
+#list_3{
+    list-style-type: lower-roman;
+    color: black;
+    background: palegoldenrod;
+}
 /* Changing the style of tables */
+
+table{
+    border: 3px solid black;
+    width: 50%;
+    margin: auto;
+}
+
+th{
+    border: 1px solid black;
+    font-size: 2rem;
+    color: white;
+    background: #0000ff;
+
+}
+
+td{
+    text-align: center;
+    background: #0000ff55;
+    padding: 10px 5px;
+}
