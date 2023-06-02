@@ -142,3 +142,16 @@ td{
     background: #7d8491;
 
 }
+
+/*Pictures Page Styling*/
+
+.picture_row{
+    text-align: center;
+    padding: 25px;
+
+}
+
+.picture_row img{
+    margin: 5px 50px;
+    box-shadow: 10px 10px 10px #7d8491 ;
+}
