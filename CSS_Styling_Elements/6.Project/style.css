@@ -121,3 +121,24 @@ article{
 }
 
 /*Pricing Page Styling*/
+
+table{
+    border: 3px solid #3f334d;
+    width: 80%;
+    margin: 10px auto;
+}
+
+th{
+    font-size: 2rem;
+    color: #eaf0ce;
+    background: #574b60;
+
+}
+
+td{
+    text-align: center;
+    padding: 20px;
+    color: #eaf0ce;
+    background: #7d8491;
+
+}
