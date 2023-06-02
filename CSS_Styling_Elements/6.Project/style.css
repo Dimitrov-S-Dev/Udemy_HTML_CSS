@@ -57,3 +57,56 @@ footer p{
     font-size: 1.2rem;
 }
 
+/* Home Page Styling*/
+
+nav{
+    text-align: center;
+
+}
+
+a{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 10%;
+    color: #3f334d;
+    font-family: "Crimson text", serif;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #3f334d;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #7d8491;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+}
+
+article{
+    display: inline-block;
+    width: 40%;
+    margin: 20px;
+}
+
+#content{
+    text-align: center;
+}
+
+#reviews{
+    margin: auto;
+    text-align: center;
+    background: #3f334d;
+}
+
+.review{
+    display: inline-block;
+    width: 30%;
+    background: #574b60;
+    padding: 10px;
+    margin: 5px;
+}
+
+.review p{
+    background: #574b60;
+    color: #eaf0ce;
+    text-align: center;
+    font-style: italic;
+}
