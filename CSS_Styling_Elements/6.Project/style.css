@@ -110,3 +110,12 @@ article{
     text-align: center;
     font-style: italic;
 }
+
+/*Contact Page Styling*/
+
+#newsletter{
+    text-align: center;
+    border: 3px solid #eaf0ce;
+    padding: 10px 10px 15px;
+    margin-top: 25px;
+}
