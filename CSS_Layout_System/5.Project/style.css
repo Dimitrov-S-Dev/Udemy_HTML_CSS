@@ -30,6 +30,21 @@ header h1{
     font-size: 4rem;
 }
 
+.red{
+    color: rgb(255, 88, 88);
+}
+
+.yellow{
+    color: rgb(255, 255, 135);
+}
+
+.green{
+    color: rgb(7, 210, 7);
+}
+
+.blue{
+    color: rgb(3, 3, 172);
+}
 .small_img{
     width: 10%;
 }
