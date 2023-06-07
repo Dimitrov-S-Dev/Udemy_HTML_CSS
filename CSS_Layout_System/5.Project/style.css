@@ -11,3 +11,41 @@
     Google Green - rgb(7, 210, 7)
     Google Blue - rgb(3, 3, 172)
 */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f8f9fa;
+}
+
+header h1{
+    background: #1a73e8;
+    color: #f8f9fa;
+    padding: 25px;
+    border: 2px solid #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #6e9a9f;
+    font-family: "Vidaloka", serif;
+    font-size: 4rem;
+}
+
+.small_img{
+    width: 10%;
+}
+
+.medium_img{
+    width: 50%;
+}
+
+.large_img{
+    width: 75%;
+}
+
+img{
+    background: #1a73e855;
+    padding: 25px;
+    border: 2px solid #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #6e9a9f;
+}
