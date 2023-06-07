@@ -11,7 +11,7 @@
     Google Green - rgb(7, 210, 7)
     Google Blue - rgb(3, 3, 172)
 */
-
+/*Header Styling*/
 header{
     display: flex;
     justify-content: space-around;
@@ -48,4 +48,25 @@ img{
     border: 2px solid #f8f9fa;
     border-radius: 10px;
     box-shadow: 5px 5px 15px #6e9a9f;
+}
+
+/*Footer Styling*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f2f2f2;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+footer p{
+    background: #1a73e8;
+    color: #f8f9fa;
+    padding: 15px;
+    border: 1px solid #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #6e9a9f;
+    font-family: "Vidaloka", serif;
+
 }
