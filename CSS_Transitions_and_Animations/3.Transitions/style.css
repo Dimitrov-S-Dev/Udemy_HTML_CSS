@@ -51,13 +51,14 @@
     transition: transform 2s, background-color 2s;
 }
 
+
+/* Specify that the transition should occur when we hover over div3 */
+
 #div3:hover{
     transform: rotate(90deg) translateX(-50px);
     background-color: purple;
     border-radius: 50%;
 }
-/* Specify that the transition should occur when we hover over div3 */
-
 
 /* 
     The transition-timing-function property specifies the speed curve of the transition effect.
@@ -69,12 +70,36 @@
 
 /* Set the styling for our timing class (our divs) and set a default transition */
 
+#timing_div{
+    background: lightpink;
+}
 
+.timing{
+    background: lightgreen;
+    width: 50px;
+    height: 50px;
+    margin: 10px 50px;
+    transition: margin-left 3s, background-color 3s;
+}
 /* Target all divs inside our timing_div to set the properties of our transition upon hovering over the larger container div. */
 
-
+#timing_div:hover div{
+    margin-left: 90%;
+    background-color: lightcoral;
+}
 /* Set the timing function of each individual div in the .timing class */
 
+.timing:nth-of-type(1){
+    transition-timing-function: ease-in;
+}
+
+.timing:nth-of-type(2){
+    transition-timing-function: ease-out;
+}
+
+.timing:nth-of-type(3){
+    transition-timing-function: linear;
+}
 
 /*
     The cubic bezier curve is based on four points: P0, P1, P2, and P3. 
@@ -82,3 +107,7 @@
     The curve will stretch differently depending on what coordinates you give for points P1 and P2.
     (x1, y1, x2, y2) The values must be between 0 and 1.
 */
+
+.timing:nth-of-type(4){
+    transition-timing-function: cubic-bezier(0.45, .45, .95, .2);
+}
