@@ -110,3 +110,42 @@ footer{
     color: #0e0814;
     text-align: center;
 }
+
+/*Join Page styling*/
+form{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+}
+
+input{
+    width: 250px;
+    font-family: "Share Tech Mono",monospace;
+    font-size: 1.2rem;
+
+}
+
+input:focus{
+    background: #d552b090;
+}
+
+button{
+    width: 100px;
+    font-family: "Share Tech Mono", monospace;
+    background: #0E0814;
+    color: #d552b0;
+    border: 2px solid #d552b0;
+    padding: 0px 10px;
+    margin: 0px 5px;
+    transition: color 0.5s, border-color 0.5s, box-shadow 0.5s, transform 0.5s;
+}
+
+button:hover{
+    color: white;
+    border-color: #56aff8;
+    box-shadow: 0 10px 10px -10px #56aff8;
+    transform: translateY(-10px);
+    text-decoration: underline;
+    cursor: pointer;
+
+}
