@@ -1,0 +1,15 @@
+*{
+    background: #0E0814;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background: none;
+    color: #d552b0;
+    border: 2px solid #d552b0;
+}
