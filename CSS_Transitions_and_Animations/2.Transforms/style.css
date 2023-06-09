@@ -21,9 +21,38 @@ h2{
 }
 /* We will use nth-of-type pseudo-classes to select our h2 elements */
 
+h2:nth-of-type(2n):hover{
+    background: blue;
+}
 
+h2:nth-of-type(2n -1):hover{
+    background: salmon;
+}
 /* Various transform option */
 
+h2:nth-of-type(1):hover{
+    transform: rotate(10deg);
+}
 
+h2:nth-of-type(2):hover{
+    transform: rotateY(80deg);
+}
+
+
+h2:nth-of-type(3):hover{
+    transform: scale(0.5, 1.5);
+}
+
+h2:nth-of-type(4):hover{
+    transform: translate(-100px, 50px);
+}
+
+h2:nth-of-type(5):hover{
+    transform: translateX(50px);
+}
+
+h2:nth-of-type(6):hover{
+
+}
 
 /* We can have multiple transforms on one line */
