@@ -52,7 +52,24 @@ h2:nth-of-type(5):hover{
 }
 
 h2:nth-of-type(6):hover{
+    transform: skew(30deg, 50deg);
+}
 
+h2:nth-of-type(7):hover{
+    transform: skewY(50deg);
 }
 
 /* We can have multiple transforms on one line */
+h2:nth-of-type(8):hover{
+    transform: translate(100px, 50px) scale(0.2) rotate(180deg);
+}
+
+h2:nth-of-type(9):hover{
+    transform: translateY(-20px) skewX(75deg);
+}
+
+h2:nth-of-type(10):hover{
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 5px darkblue;
+}
+
