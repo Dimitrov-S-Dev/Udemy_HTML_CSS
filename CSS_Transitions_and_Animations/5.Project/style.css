@@ -45,3 +45,65 @@ header nav a:hover{
     text-decoration: underline;
 
 }
+/*Main Styling*/
+main{
+    padding: 10px;
+    box-sizing: border-box;
+}
+main h2, main h3{
+    font-family: "Share Tech Mono", monospace;
+    color: #0E0814;
+    box-shadow: 0px 10px 10px -10px #56aff8;
+    display: inline;
+}
+
+#primary{
+    display: flex;
+}
+
+#primary_1{
+    width: 66%;
+}
+
+#primary_2{
+    width: 33%;
+    background: #0E0814;
+    color: white;
+    padding: 5px 20px;
+    margin: 10px;
+    border: 2px solid #56aff8;
+    border-radius: 5%;
+}
+
+#primary_2 h3{
+    color: white;
+}
+
+#secondary{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+
+#secondary article{
+    width: 30%;
+    background: #d552b0;
+    border: 2px solid #d552b0;
+    border-radius: 10px;
+    padding: 20px;
+    transition: background-color 1.5s, color 1.5s, box-shadow 1.5s, transform 1.5s;
+}
+
+#secondary article:hover{
+    background-color: #56aff8;
+    color: white;
+    box-shadow: 0px 10px 10px -10px #56aff8;
+    transform: translateY(-5px);
+    border: 5px solid #0E0814;
+}
+/*Footer Styling*/
+footer{
+    font-family: "Share Tech Mono", monospace;
+    color: #0e0814;
+    text-align: center;
+}
