@@ -7,7 +7,18 @@
     skew - a transformation that distorts each point within an element by a certain angle in the horizontal and vertical directions. 
 */
 
-
+h2{
+    background: lightblue;
+    border: 5px solid darkblue;
+    color: darkgoldenrod;
+    width: 350px;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: lighter;
+    padding: 20px;
+    margin: 20px auto;
+}
 /* We will use nth-of-type pseudo-classes to select our h2 elements */
 
 
