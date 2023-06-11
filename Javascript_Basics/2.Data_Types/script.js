@@ -14,6 +14,11 @@ console.log(full_name + " is" +  " a " + typeof(full_name))
 
 // We can create our own objects and set attributes to the object.
 
+let my_cat = new Object();
+my_cat.name = "Boom";
+my_cat.age = 9;
+my_cat.is_nice = false;
+my_cat.color;
 
 
 // We can create arrays and call specific array methods.
