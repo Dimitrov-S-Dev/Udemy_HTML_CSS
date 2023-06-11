@@ -41,5 +41,6 @@ while (i < 5){
 let state = "yes";
 while (state == "yes"){
     state = prompt("Do you want to keep looping (yes/no): ")
-    console.log("Lets do this!")
+    console.log("Lets do this!");
 }
+console.log("Thank u for looping!");
