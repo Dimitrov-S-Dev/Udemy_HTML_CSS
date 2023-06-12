@@ -61,4 +61,7 @@ switch (dog){
         alert("Bxr");
         break;
 
+    default:
+        alert("All dogs are great");
+
 }
