@@ -49,3 +49,11 @@ original_heading.setAttribute("class", "updated")
     We can access entire classes of elements from our HTML document using getElementByClassName.
     This will return an array that we can loop over!
 */
+
+const fake_text = document.getElementsByClassName("fake_text")
+for (text of fake_text){
+    // text.setAttribute("style", "color:orange, background:blue")
+    text.style.color = "red";
+    text.style.background = "green";
+    text.innerHTML = "Now we know how THE DOM works."
+}
