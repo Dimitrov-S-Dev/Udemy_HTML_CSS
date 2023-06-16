@@ -29,18 +29,22 @@ my_main.append(new_paragraph);
 
 // We can alter the text of these new elements using innerText or innerHTML attributes.
 
-new_heading.innerText = "This is my brand new heading";
-new_paragraph.innerHTML = "This is my brand new paragraph";
+new_heading.innerText = "This is my <b>brand</b> new heading";
+new_paragraph.innerHTML = "This is my <b>brand</b> new paragraph";
 
 // We can access other elements from our HTML document by their id using getElementById.
 
+const original_heading = document.getElementById("original_heading")
+const old_paragraph = document.getElementById("original_paragraph")
 
 // We can now alter or remove these elements.
 
-
+original_heading.innerHTML = "We are using getElementById!!! We' ve updated this text!"
+old_paragraph.remove()
 // We can get and set attributes of our elements.
 
-
+console.log(original_heading.getAttribute("id"))
+original_heading.setAttribute("class", "updated")
 /*
     We can access entire classes of elements from our HTML document using getElementByClassName.
     This will return an array that we can loop over!
