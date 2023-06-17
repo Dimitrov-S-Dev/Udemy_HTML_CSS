@@ -47,5 +47,5 @@ odd_paragraph.innerHTML = "This is a single odd paragraph grabbed using querySel
 const even_paragraphs = document.querySelectorAll(".query_p:nth-of-type(2n)")
 for (even_paragraph of even_paragraphs){
     even_paragraph.innerHTML = "This is a even paragraph that we grabbed using querySelectorAll()"
-    even_paragraph.style.color = "red"
+    even_paragraph.style.color = "red";
 }
