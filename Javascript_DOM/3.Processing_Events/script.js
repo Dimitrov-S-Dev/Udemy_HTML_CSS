@@ -8,6 +8,15 @@
     We can pass information about the given event to the function.
 */
 
+const btn1 = document.querySelector("#btn1");
+const btn2 = document.querySelector("#btn2");
+const btn3 = document.querySelector("#btn3");
+const btn4 = document.querySelector("#btn4");
+const btn5 = document.querySelector("#btn5");
+
+const click_coords = document.getElementById("click_coords");
+const hover_coords = document.getElementById("hover_coords");
+
 
 /*
     To begin, we will declare and write our functions inside our click listeners.
@@ -17,21 +26,57 @@
 */
 
 // Adding a click listener to a button.
-
+let click_count = 0;
+btn1.addEventListener("click", function (my_event){
+    click_count ++;
+    alert("Hey, you have clicked the first button " + click_count + " times!");
+    console.log(my_event);
+})
 
 // Adding multiple listeners to a single element.
 
+btn2.addEventListener("mouseenter",function (e){
+    btn2.innerHTML = "You have enter the button!"
+    console.log(e)
+})
 
-
-
+btn2.addEventListener("mouseleave", function (e){
+    btn2.innerHTML = "You have left the button"
+    console.log(e)
+})
 /*
     We can write our function separately and then target it with an EventListener.
     We can reference the element the listener is attached to with the keyword.
 */
 
+function putName(e){
+    let name = prompt("What is your name?")
+    this.innerHTML = name;
+    this.setAttribute("style", "background: blue; color:white")
+    console.log(e)
+}
+
+btn3.addEventListener("click", putName);
+btn4.addEventListener("click", putName);
 
 // We don't have to use setAttribute, we can change the style directly.
 
-
+function changeColor(e){
+    let colors = ["blue", "yellow", "white", "red", "green", "orange", "pink"];
+    var randomColor = colors[Math.floor(Math.random()*colors.length)]
+    this.style.backgroundColor = randomColor;
+}
+btn5.addEventListener("click", changeColor);
 // We can access information about our event!
 
+function getCoordsOfClick(e){
+    click_coords.innerHTML = "You clicked at x: " + e.clientX + ", y: " + e.clientY;
+
+}
+
+function getCordsOfHover(e){
+    hover_coords.innerHTML = "Your current location is x: " + e.clientX + ", y: " + e.clientY;
+}
+
+document.addEventListener("click", getCoordsOfClick);
+document.addEventListener("mousemove", getCordsOfHover);
