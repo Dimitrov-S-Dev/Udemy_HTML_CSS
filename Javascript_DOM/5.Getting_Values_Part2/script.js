@@ -24,3 +24,11 @@ const birthday_message = document.querySelector("#birthday_message")
 birthday_input.addEventListener("change", function (e){
     birthday_message.innerHTML = "Your Birthday is recorded as " + this.value
 })
+
+
+const color_input = document.querySelector("#color_input")
+const main = document.querySelector("main")
+
+color_input.addEventListener("change", function (e){
+    main.style.backgroundColor = this.value
+})
