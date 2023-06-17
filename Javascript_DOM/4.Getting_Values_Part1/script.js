@@ -23,3 +23,14 @@ function getTeam(e){
 
 team_btn.addEventListener("click", getTeam)
 //Getting a value from linked radio buttons within a form.
+
+const food_form = document.querySelector("#food_form")
+const food_btn = document.querySelector("#food_btn")
+const food_message = document.querySelector("#food_message")
+
+function getFood(e){
+    let fav_food = food_form.fav_food;
+    food_message.innerHTML = "I'd really love a " + fav_food.value + " too!"
+}
+
+food_btn.addEventListener("click", getFood)
