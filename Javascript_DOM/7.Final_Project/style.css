@@ -163,3 +163,8 @@ nav a:hover{
     justify-content: center;
     padding: 20px;
 }
+
+footer{
+    text-align: center;
+    font-weight: bolder;
+}
