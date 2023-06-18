@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM Forms</title>
+        <script defer src="script.js"></script>
+    </head>
+
+    <body>
+        <header>
+           <h1>Learning about Forms!</h1>
+        </header>
+        
+        <main>
+            <h2>Here is a Form in which NOT ALL elements have a name attribute</h2>
+            <h3>Only those elements with name will have their data submitted</h3>
+            <form id="form_1">
+                <input type="text" id="username" placeholder="Enter your name" required>
+                <input type="password" id="password" placeholder="Enter your password" required>
+                <label for="age_range">Choose an Age range:</label>
+                <select name="my_age_range" id="age_range">
+                    <option value="0-18">0-18</option>
+                    <option value="18-30">18-30</option>
+                    <option value="30-55">30-55</option>
+                    <option value="55-75">55-75</option>
+                </select>
+            </form>
+
+        </main>
+
+        <footer>
+           <p>Interact with me.</p>
+        </footer>
+    </body>
+</html>
