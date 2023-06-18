@@ -119,3 +119,47 @@ header img{
 #home #community{
     grid-column: span 3;
 }
+
+nav{
+    background: #bfa89e;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav a{
+    display: inline-block;
+    color: #ebf5ee;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #ebf5ee;
+    width: 75px;
+    margin: 7px 0px;
+    padding: 10px 30px;
+    font-size: 1.0rem;
+    transition: box-shadow 0.5s, transform 0.5s;
+}
+
+nav a:hover{
+    box-shadow: 0px 10px 10px -5px #8b786d;
+    transform: translateY(-5px);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#new_products{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background: #8b786d;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.content_item{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
