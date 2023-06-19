@@ -36,3 +36,7 @@ style.addEventListener("change", function (e){
     else
         shirt_img.setAttribute("src", "jersey_icon.png")
 })
+
+color.addEventListener("change", function (e){
+    shirt_img.style.background = this.value
+})
