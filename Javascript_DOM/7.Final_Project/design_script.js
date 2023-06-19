@@ -19,3 +19,20 @@ size_form.addEventListener("change", function (e){
         shirt_img.setAttribute("class", "xlarge_img")
     }
 })
+
+style.addEventListener("change", function (e){
+    if (this.value == "short"){
+        shirt_img.setAttribute("src", "shirt_icon.png")
+    }
+    else if(this.value == "crew"){
+        shirt_img.setAttribute("src", "crew_icon.png")
+    }
+    else if (this.value == "polo"){
+        shirt_img.setAttribute("src", "polo_icon.png")
+    }
+    else if (this.value == "dress"){
+        shirt_img.setAttribute("src", "dress_icon.png")
+    }
+    else
+        shirt_img.setAttribute("src", "jersey_icon.png")
+})
