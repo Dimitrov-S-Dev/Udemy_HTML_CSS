@@ -168,3 +168,41 @@ footer{
     text-align: center;
     font-weight: bolder;
 }
+
+/*......................................................*/
+/*Toll Page Styling*/
+#tool{
+    background: #ebf5ee;
+}
+
+#tool_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tool_calc{
+    background: #bfa89e;
+    width: 500px;
+    border: 2px solid #8b786d;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#tool_calc div, #tool_calc form{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px;
+}
+
+#tool_values{
+    background: #bfa89e;
+    width: 500px;
+    border: 2px solid #8b786d;
+    border-radius: 10px;
+    margin: 50px 0px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
