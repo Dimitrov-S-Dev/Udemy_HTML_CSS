@@ -196,6 +196,22 @@ footer{
     margin: 25px 0px;
 }
 
+#tool_calc label{
+    display: inline-block;
+    width: 250px;
+    text-align: left;
+}
+
+#tool_calc input{
+    display: inline-block;
+    width: 80px;
+
+}
+
+#tool_btn{
+    width: 150px;
+
+}
 #tool_values{
     background: #bfa89e;
     width: 500px;
