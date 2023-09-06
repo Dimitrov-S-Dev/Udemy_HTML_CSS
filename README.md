@@ -1,4 +1,4 @@
-# <p align="center"> ![alt text](https://github.com/Dimitrov-S-Dev-Python/Udemy_HTML_CSS/blob/master/udemy_logo.jpg) <p>
+# <p align="center"> ![alt text](https://github.com/Dimitrov-S-Dev-Python/Udemy_HTML_CSS/blob/master/udemy_github.jpg) <p>
 # The Art of Doing: Web Development for Beginners HTML, CSS, and JavaScript 
 ## Acquired skills
 - Fundamental HTML tags
